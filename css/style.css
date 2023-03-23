@@ -54,22 +54,18 @@ p{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* section1 */
+/* banners for all three pages */
 .section1{
     width: 100%;
     background-image: url("../images/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 720px;
+}
+.section2{
+    width: 100%;
+    background-image: url("../images/artwork_banner.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
