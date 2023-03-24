@@ -93,7 +93,7 @@ p{
     background: none;
     cursor: pointer;
 }
-/* banner for home page */
+/* banner for artworks page */
 .section2{
     width: 100%;
     background-image: url("../images/Rectangle\ 107.png");
@@ -117,24 +117,7 @@ p{
     margin-left: 10%;
     width: 40%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* banners for all three pages */
+/* contact page */
 .section3{
     width: 100%;
     background-image: url("../images/contact\ banner.png");
@@ -143,3 +126,84 @@ p{
     background-repeat: no-repeat;
     height: 720px;
 }
+.contact_form{
+    width: 26%;
+    height: 400px;
+    background: rgba(64, 33, 1, 0.73);
+    border: 1px solid #FFFFFF;
+    box-shadow: -1px -1px 4px #FFFFFF;
+    border-radius: 10px;
+    margin-left: 240px;
+    top: 50%;
+    transform: translate(0%, 50%);
+}
+.submite_page_p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5rem;
+    padding: 24px 0 0 30px;
+}
+.input_info{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+}
+.email{
+    margin-left: 70px;
+}
+.inputs{
+    width: 45%;
+    height: 35px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    background: none;
+    outline: none;
+    border: 2px solid rgb(219, 195, 195);
+}
+.text_place{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: #fff;
+    background: none;
+    border: 2px solid rgb(219, 195, 195);
+    border-radius: 10px;
+    resize: none;
+    display: flex;
+    align-content: center; 
+}
+.submit{
+    width: 90%;
+    margin: 0 auto;
+}
+.submit_info{
+    width: 147px;
+    height: 56px;
+    margin-top: 40px;
+    background: #D5906E;
+    border-radius: 10px;
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
