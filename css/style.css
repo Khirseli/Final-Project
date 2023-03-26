@@ -293,19 +293,6 @@ figcaption{
     margin: 20px 0 160px 0;
     margin-left: 40%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* banner for artworks page */
 .section2{
     width: 100%;
@@ -501,8 +488,8 @@ footer{
     justify-content: space-between;
 }
 .f_logo:hover{
-        transform: translateY(-16px);
-        transition:0.5s;
+    transform: translateY(-16px);
+    transition:0.5s;
 }
 .span1{
     color: #fff;
