@@ -155,7 +155,6 @@ figcaption{
     padding: 160px 0 40px 0;
 }
 .latest_products_images{
-    padding-bottom: 160px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -193,16 +192,15 @@ figcaption{
 }
 /* second banner for home page */
 .section2_homepage{
-    border: 2px solid red;
     width: 100%;
     background-image: url("../images/banner2.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 480px;
-    margin-bottom: 1000px;
 }
 .banner2_h2{
+    padding-top: 160px;
     font-family: 'Inter';
     font-weight: 700;
     font-size: 2.5rem;
@@ -214,6 +212,7 @@ figcaption{
     display: flex;
     padding-left: 730px;
     margin-top: 56px;
+    
 }
 .personal_info_input{
     height: 60px;
@@ -233,6 +232,71 @@ figcaption{
     border-radius: 0px 10px 10px 0px;
     cursor: pointer;
 }
+/* last article of home page */
+.last_article{
+    width: 80%;
+    margin: auto;
+}
+.last_article_h{
+    margin-top: 161px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #402101;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.explanation{
+    width: 100%;
+    height: 129px;
+    margin-bottom: 112px;
+    display: flex;
+    justify-content: space-between;
+}
+.exp_card{
+    width: 30%;
+    height: 100%;
+    background: rgba(213, 144, 110, 0.3);
+    border-radius: 8px;
+}
+.exp_card_h{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #B53B1B;
+    margin-bottom: 24px;
+}
+.exp_card_text{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #402101;
+}
+.last_question{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #402101;
+    text-align: center;
+}
+.last_article_button{
+    width: 309px;
+    height: 56px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    background-color: #B53B1B;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+
+
+
+
 
 
 
