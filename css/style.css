@@ -255,18 +255,16 @@ footer{
 .main_navigation_div{
     width: 62%;
     height: 70%;
-    border: 2px solid red;
-    margin:auto;
+    padding-top: 32px;
+    margin: auto;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 .help_plus_icons{
     width: 168px;
-    border: solid blue 2px;
 }
 .footer_contact{
-    width: 185px;
-    border: solid blue 2px;
+    width: 200px;
 }
 .footer_h{
     font-family: 'Inter';
@@ -290,6 +288,10 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.f_logo:hover{
+        transform: translateY(-16px);
+        transition:0.5s;
+}
 .span1{
     color: #fff;
     font-family: 'Rubik';
@@ -299,6 +301,15 @@ footer{
 }
 .contact_mini_divs{
     display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.contact_mini_divs:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.envelope{
+    margin: 32px 0 31px 0;
 }
 
 
