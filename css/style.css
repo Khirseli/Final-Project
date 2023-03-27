@@ -358,7 +358,7 @@ figcaption{
 .artworks_article{
     width: 80%;
     margin: auto;
-    height: 1000px;
+    height: 1400px;
     border: solid red 2px;
 }
 .artworks_article_header{
@@ -410,6 +410,38 @@ h4{
     color: #B53B1B;
     text-align: left;
 }
+/* artwork pages */
+.artworks_page_numbers{
+    width: 29%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    margin-top: 146px;
+}
+
+.numbers{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #402101;
+}
+.page_numbers{
+    width: 56px;
+    height: 56px;
+    border: 2px solid #B53B1B;
+    padding-top: 17px;
+}
+.bold{
+    background: #B53B1B;
+}
+.exeption{
+    color: #fff
+}
+
+
+
+
+
 
 
 
