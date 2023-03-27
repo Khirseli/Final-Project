@@ -303,10 +303,10 @@ figcaption{
     height: 560px;
 }
 .second_banner_text{
-    width: 39%;
+    /* width: 39%; */
     position: absolute;
     margin-top: 245px;
-    left: 61.5%;
+    left: 50.5%;
     transform: translate(-61.5%);
     color: #fff;
 }
@@ -314,8 +314,8 @@ figcaption{
     margin-bottom: 50px;
 }
 .contact_button{
-    margin-left: 10%;
-    width: 40%;
+    margin-left: 15%;
+    width: 65%;
 }
 /* search for artwoks page */
 .artworks_search{
@@ -347,9 +347,10 @@ figcaption{
     height: 56px;
     width: 25%;
     text-align: center;
-    padding-top: 17px;
+    padding-top: 20px;
     background: #402101;
     border-radius: 0px 10px 10px 0px;  
+    cursor: pointer;
 }
 .action_page{
     display: flex;
@@ -358,8 +359,7 @@ figcaption{
 .artworks_article{
     width: 80%;
     margin: auto;
-    height: 1400px;
-    border: solid red 2px;
+    margin-bottom: 160px;
 }
 .artworks_article_header{
     display: flex;
@@ -410,6 +410,15 @@ h4{
     color: #B53B1B;
     text-align: left;
 }
+.boxshadow_image:hover{
+    box-shadow: 10px 10px 5px 12px rgb(148, 93, 67);
+}
+
+
+
+
+
+
 /* artwork pages */
 .artworks_page_numbers{
     width: 29%;
@@ -437,18 +446,6 @@ h4{
 .exeption{
     color: #fff
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /* contact page */
 .section3{
     width: 100%;
