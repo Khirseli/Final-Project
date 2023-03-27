@@ -354,8 +354,62 @@ figcaption{
 .action_page{
     display: flex;
 }
-
-
+/* artworks article */
+.artworks_article{
+    width: 80%;
+    margin: auto;
+    height: 1000px;
+    border: solid red 2px;
+}
+.artworks_article_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sort{
+    display: flex;
+    gap: 44px;
+    border: 2px solid #B53B1B;
+    border-radius: 5px;
+}
+.artworks_article_h{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #402101;
+}
+.sort_p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #402101;
+}
+/* arworks article + figure/figcaption */
+.figure_div_first{
+    margin-top: 94px;
+    display: flex;
+    justify-content: space-between;
+}
+.figure_div_second{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.artworks_figcaption{
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    color: #402101;
+}
+.artworks_figcaption_p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #B53B1B;
+    text-align: left;
+}
 
 
 
