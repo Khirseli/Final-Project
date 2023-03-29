@@ -15,7 +15,13 @@ header{
     z-index: 1;
 }
 nav{
-    margin-left: 12.5%;
+    margin-left: 12.5%; 
+}
+.fa-bars{
+    display: none;
+}
+.fa-xmark{
+    display: none;
 }
 ul{
     display: flex;
@@ -303,7 +309,6 @@ figcaption{
     border-radius: 10px;
     border: none;
     margin: 20px 0 160px 0;
-    border: 2px solid red;
     margin-left: 40%;
 }
 /* banner for artworks page */
