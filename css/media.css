@@ -1,0 +1,108 @@
+    /* home page *//* home page *//* home page */
+@media (max-width: 1600px){
+.subscribe_form{
+    padding-left: 560px;
+}
+}
+@media (max-width: 1500px){
+    .gallery_img1{
+        width: 80%;
+    }
+    .gallery_img2{
+        width: 80%;
+    }
+    .fourth{
+        display: none;
+    }
+    }
+    @media (max-width: 1400px){
+        /* homepage */
+    nav{
+        margin-left: 6%;
+        }
+        /* artworks */
+        .first_div_last_figure{
+            display: none;
+        }
+        .second_div_last_figure{
+            display: none;
+        }
+    }
+    @media (max-width: 1280px){
+        .main_logo{
+
+            margin-left: 10.8%;
+        }
+        .last_article_button{
+            margin-left: 30%;
+        }
+    
+        .subscribe_form{
+            padding-left: 400px;
+        }
+        .gallery_img1_smallimage{
+            display: none;
+        }
+        .gallery_img1{
+            align-content: center;
+            justify-content: space-evenly;
+        }
+        .gallery_img2{
+            justify-content: space-evenly;
+        }
+        .gallery_img2_thirdimage{
+            display: none;
+        }
+        .main_navigation_div{
+            width: 95%;
+        }
+        .last_figure{
+            display: none;
+        }
+    }
+    @media (max-width: 1200px){
+        .artworks_article{
+            width: 90%;
+        }
+        .contact_form{
+            width: 40%;
+        }
+    }
+    @media (max-width: 1160px){
+        .first_banner_text{
+            left: 50%;
+            transform: translate(-50%, 50%);
+        }
+    }
+    @media (max-width: 1060px){
+        ul{
+            gap: 15px;
+        }
+        .third{
+            display: none;
+        }
+        .artworks_article{
+            width: 75%;
+        }
+
+    }
+    @media (max-width: 900px){
+        .article_cards{
+            width: 80%;
+        }
+        .latest_products{
+            width: 100%;
+        }
+        .subscribe_form{
+            padding-left: 260px
+        }
+        .exp_card_h{
+            font-size: 1rem;
+        }
+        .exp_card_text{
+            font-size: 0.8rem;
+        }
+        .last_question{
+            padding-top: 80px;
+        }
+    }
