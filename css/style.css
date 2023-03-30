@@ -229,8 +229,7 @@ figcaption{
 .subscribe_form{
     display: flex;
     padding-left: 730px;
-    margin-top: 56px;
-    
+    margin-top: 56px;  
 }
 .personal_info_input{
     height: 60px;
@@ -434,12 +433,6 @@ h4{
 .boxshadow_image:hover{
     box-shadow: 10px 10px 5px 12px rgb(148, 93, 67);
 }
-
-
-
-
-
-
 /* artwork pages */
 .artworks_page_numbers{
     width: 29%;
@@ -448,7 +441,6 @@ h4{
     text-align: center;
     margin-top: 146px;
 }
-
 .numbers{
     font-family: 'Inter';
     font-weight: 400;
