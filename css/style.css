@@ -311,6 +311,9 @@ figcaption{
     margin: 20px 0 160px 0;
     margin-left: 40%;
 }
+.view_more{
+    display: none;
+}
 /* banner for artworks page */
 .section2{
     width: 100%;

@@ -254,11 +254,54 @@
         .footer_contact{
             margin: auto;
         }
+    }
+    @media (max-width: 665px){
+        .figure_div_second{
+            display: none;
+        }
+        .third{
+            display: block;
+        }
+        .figure_div_first{
+            margin: auto;
+            margin-top: 40px;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .artworks_figcaption{
+            text-align: center;
+        }
+        .figure_img{
+            width: 100%;
+        }
+        .artworks_page_numbers{
+            width: 60%;
+        }
+
+
+    }
 
 
         @media (max-width: 480px){
         .subscribe_form{
             padding-left: 0;
             width: 300px;
+        }
+        .view_more{
+            display: block;
+            width: 144px;
+            height: 48px;
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 1rem;
+            color: #FFFFFF;
+            background-color: #B53B1B;
+            border-radius: 10px;
+            border: none;
+            margin: auto;
+            margin-top: 32px;
+        }
+        .last_article_button{
+            margin-left: 17%;
         }
     }
