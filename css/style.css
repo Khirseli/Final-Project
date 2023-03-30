@@ -652,6 +652,7 @@ footer{
     display: flex;
     align-items: center;
     gap: 16px;
+    /* border: 2px solid rgb(241, 238, 238); */
 }
 .contact_mini_divs:hover{
     transform: scale(1.2);
@@ -659,6 +660,7 @@ footer{
 }
 .envelope{
     margin: 32px 0 31px 0;
+    align-items: center;
 }
 
 

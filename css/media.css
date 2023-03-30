@@ -277,8 +277,9 @@
         .artworks_page_numbers{
             width: 60%;
         }
-
-
+        .lp_image{
+            width: 100%;
+        }
     }
 
 
@@ -303,5 +304,18 @@
         }
         .last_article_button{
             margin-left: 17%;
+        }
+        .contact_form{
+            width: 90%;
+        }
+        .main_div{
+            display: flex;
+            flex-direction: column;
+        }
+        .iframe{
+            width: 100%;
+        }
+        .contact_map{
+            height: auto;
         }
     }
